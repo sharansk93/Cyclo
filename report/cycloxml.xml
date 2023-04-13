@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="73.971" tests="5" skipped="0" failures="0" errors="0">
+<testcase classname="cyclo app" name="In Contact list selecting Active Walking and requesting payment" time="19.862">
+<system-out><![CDATA[
+Given launch the url........................................................passed
+When I enter the username and password......................................passed
+And click the submit button and selecting contact option....................passed
+When I select the Active Walking from the contact list......................passed
+And Requesting for payment in the options...................................passed
+And enter the requested amount, requested date and also select payment method.passed
+And enter the description and confirm.......................................passed
+Then check whether request has been created successfully....................passed
+]]></system-out>
+</testcase>
+<testcase classname="cyclo app" name="In Contact list selecting Active Walking" time="14.193">
+<system-out><![CDATA[
+Given launch the url........................................................passed
+When I enter the username and password......................................passed
+And click the submit button and selecting contact option....................passed
+When I select the references from the options...............................passed
+And by Clicking the Set reference...........................................passed
+And selecting very good from the options and adding the comments............passed
+Then click on the submit button.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="cyclo app" name="Send a mail to Active Walking" time="13.75">
+<system-out><![CDATA[
+Given launch the url........................................................passed
+When I enter the username and password......................................passed
+And click the submit button and selecting contact option....................passed
+When I select the Active Walking from Contacts..............................passed
+And Click on the send message option........................................passed
+And enter The Subject and select the font as Monospace and Bold.............passed
+And enter the Message.......................................................passed
+Then click on the send button...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="cyclo app" name="Make payment to Active Walking" time="13.313">
+<system-out><![CDATA[
+Given launch the url........................................................passed
+When I enter the username and password......................................passed
+And click the submit button and selecting contact option....................passed
+When I select the Active walking from contacts and select Make payment option.passed
+And enter The Amount to be sent and also schedule the payment as now........passed
+And enter The Description message and click on the next button and cofirm the same.passed
+Then check whether payment is done or exceeded the payment limit............passed
+]]></system-out>
+</testcase>
+<testcase classname="cyclo app" name="Remove Active Walking from Contacts" time="12.489">
+<system-out><![CDATA[
+Given launch the url........................................................passed
+When I enter the username and password......................................passed
+And click the submit button and selecting contact option....................passed
+When I select the Active Walking from the contacts..........................passed
+And select Remove from the Contacts option..................................passed
+Then go back to Contacts and check whether the contact has been removed.....passed
+]]></system-out>
+</testcase>
+</testsuite>
